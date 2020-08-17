@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    background-color: #7E4DFF;
+}
+
+#animation{
+    animation-name: trip;
+    animation-duration: 5s;
+}
+
+@keyframes trip{
+    0%{
+       background-color: #FFF473;  
+    }
+    
+    50%{
+        background-color:  #40FFC0; 
+    }
+    
+    100%{
+        background-color: #7E4DFF;
+    }
+}
+
+#animate{
+    animation-name: inside;
+    animation-duration: 10s;
+}
+
+@keyframes inside{
+    0%{
+       background-color: #7E4DFF;
+       color:#7E4DFF;  
+    }
+    
+    50%{
+        background-color:  #40FFC0; 
+        color:#40FFC0  ;
+    }
+    
+    100%{
+        background-color: #FFF473 ;
+        color:  #4800ff ;
+    }
+}
+
+div{
+    border: 0px solid red;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.box{
+    
+    width:300px;
+    height: 300px;
+    background: #FFF473 ;
+    font-family: 'Permanent Marker', cursive;
+    color: #4800ff;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.7rem;
+    border: 10px solid white;
+    border-radius: 2px;
+}
+
+
+
+
+
